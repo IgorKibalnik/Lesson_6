@@ -42,8 +42,8 @@ public class Main {
                     .append(unitsList.get(lastDigit - 1))
                     .append(" ");
 
-        stringValue.append(declinationsOfRuble.get(Integer.valueOf(lastDigit)));
-        System.out.println(stringValue.toString());
+        stringValue.append(declinationsOfRuble.get(lastDigit));
+        System.out.println(stringValue);
     }
 
     static int getRandomValue(int minValue, int maxValue) {
